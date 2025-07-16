@@ -2,39 +2,57 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+/* Final Harvest Ministry Design System
+Color Theme: White, Yellow, Black
 All colors MUST be HSL.
 */
 
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 0 0% 0%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 0 0% 0%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 0 0% 0%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 45 100% 50%;
+    --primary-foreground: 0 0% 0%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 0 0% 98%;
+    --secondary-foreground: 0 0% 0%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 30%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 45 100% 50%;
+    --accent-foreground: 0 0% 0%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 0 0% 90%;
+    --input: 0 0% 95%;
+    --ring: 45 100% 50%;
+
+    /* Custom FHM Colors */
+    --fhm-yellow: 45 100% 50%;
+    --fhm-yellow-light: 45 100% 85%;
+    --fhm-yellow-dark: 45 100% 35%;
+    --fhm-black: 0 0% 0%;
+    --fhm-white: 0 0% 100%;
+    --fhm-gray-light: 0 0% 95%;
+    --fhm-gray: 0 0% 60%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--fhm-yellow)), hsl(var(--fhm-yellow-dark)));
+    --gradient-section: linear-gradient(180deg, hsl(var(--fhm-white)), hsl(var(--fhm-gray-light)));
+    
+    /* Shadows */
+    --shadow-card: 0 4px 20px hsl(var(--fhm-black) / 0.1);
+    --shadow-hero: 0 20px 60px hsl(var(--fhm-yellow) / 0.3);
 
     --radius: 0.5rem;
 

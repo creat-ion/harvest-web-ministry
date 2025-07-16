@@ -52,6 +52,18 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// FHM Custom Colors
+				'fhm-yellow': {
+					DEFAULT: 'hsl(var(--fhm-yellow))',
+					light: 'hsl(var(--fhm-yellow-light))',
+					dark: 'hsl(var(--fhm-yellow-dark))'
+				},
+				'fhm-black': 'hsl(var(--fhm-black))',
+				'fhm-white': 'hsl(var(--fhm-white))',
+				'fhm-gray': {
+					DEFAULT: 'hsl(var(--fhm-gray))',
+					light: 'hsl(var(--fhm-gray-light))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
